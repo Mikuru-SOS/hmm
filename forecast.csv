@@ -1,11 +1,11 @@
 id,phase,task,milestone,start,end,completion,crew,dependencies,weather_dependent,critical_path,permit_required,safety_level,trade,location,equipment_needed,material_status
-1,Foundation,Site excavation,false,01/04/2024,05/04/2024,0,Site Crew A,,true,true,true,high,general,Building A,Excavator,delivered
-2,Foundation,Pour concrete,true,06/04/2024,08/04/2024,0,Concrete Team,1,true,true,true,high,concrete,Building A,Concrete Mixer,pending
-3,Structure,Column erection,false,10/04/2024,15/04/2024,0,Steel Crew,2,false,true,true,medium,steel,Building A,Crane,delivered
-4,Structure,Slab casting,true,16/04/2024,20/04/2024,0,Concrete Team,3,true,true,true,high,concrete,Building A,Formwork,pending
-5,Envelope,Wall installation,false,22/04/2024,28/04/2024,0,Masonry Team,4,false,false,false,medium,masonry,Building B,Scaffolding,delivered
-6,Envelope,Window glazing,true,29/04/2024,02/05/2024,0,Glass Crew,5,false,false,false,low,glazing,Building B,Lift,pending
-7,MEP,Electrical rough-in,false,03/05/2024,08/05/2024,0,Electrical Team,5,false,true,true,high,electrical,Building B,Ladders,delivered
-8,MEP,Plumbing rough-in,false,09/05/2024,14/05/2024,0,Plumbing Team,5,false,true,true,high,plumbing,Building B,Pipe Cutter,pending
-9,Finishes,Interior plastering,false,16/05/2024,22/05/2024,0,Finish Team,7;8,false,false,false,medium,finishes,Building C,Trowel,pending
-10,Finishes,Painting,true,23/05/2024,28/05/2024,0,Painting Crew,9,false,false,false,low,painting,Building C,Paint Sprayer,pending
+1,Foundation,Site excavation,No,2024-04-01,2024-04-05,0,Site Crew A,NA,Yes,Yes,Yes,high,general,Building A,Excavator,delivered
+2,Foundation,Pour concrete,Yes,2024-04-06,2024-04-08,0,Concrete Team,1,Yes,Yes,Yes,high,concrete,Building A,Concrete Mixer,pending
+3,Structure,Column erection,No,2024-04-10,2024-04-15,0,Steel Crew,2,No,Yes,Yes,medium,steel,Building A,Crane,delivered
+4,Structure,Slab casting,Yes,2024-04-16,2024-04-20,0,Concrete Team,3,Yes,Yes,Yes,high,concrete,Building A,Formwork,pending
+5,Envelope,Wall installation,No,2024-04-22,2024-04-28,0,Masonry Team,4,No,No,No,medium,masonry,Building B,Scaffolding,delivered
+6,Envelope,Window glazing,Yes,2024-04-29,2024-05-02,0,Glass Crew,5,No,No,No,low,glazing,Building B,Lift,pending
+7,MEP,Electrical rough-in,No,2024-05-03,2024-05-08,0,Electrical Team,5,No,Yes,Yes,high,electrical,Building B,Ladders,delivered
+8,MEP,Plumbing rough-in,No,2024-05-09,2024-05-14,0,Plumbing Team,5,No,Yes,Yes,high,plumbing,Building B,Pipe Cutter,pending
+9,Finishes,Interior plastering,No,2024-05-16,2024-05-22,0,Finish Team,"7;8",No,No,No,medium,finishes,Building C,Trowel,pending
+10,Finishes,Painting,Yes,2024-05-23,2024-05-28,0,Painting Crew,9,No,No,No,low,painting,Building C,Paint Sprayer,pending
