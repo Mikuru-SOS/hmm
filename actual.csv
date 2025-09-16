@@ -1,0 +1,11 @@
+id,phase,task,milestone,start,end,completion,crew,dependencies,weather_dependent,critical_path,permit_required,safety_level,trade,location,equipment_needed,material_status
+1,Foundation,Site excavation,false,02/04/2024,07/04/2024,100,Site Crew A,,true,true,true,high,general,Building A,Excavator,delivered
+2,Foundation,Pour concrete,true,09/04/2024,12/04/2024,100,Concrete Team,1,true,true,true,high,concrete,Building A,Concrete Mixer,delivered
+3,Structure,Column erection,false,14/04/2024,20/04/2024,95,Steel Crew,2,false,true,true,medium,steel,Building A,Crane,delayed
+4,Structure,Slab casting,true,22/04/2024,28/04/2024,80,Concrete Team,3,true,true,true,high,concrete,Building A,Formwork,delivered
+5,Envelope,Wall installation,false,30/04/2024,06/05/2024,60,Masonry Team,4,false,false,false,medium,masonry,Building B,Scaffolding,delivered
+6,Envelope,Window glazing,true,08/05/2024,12/05/2024,30,Glass Crew,5,false,false,false,low,glazing,Building B,Lift,backordered
+7,MEP,Electrical rough-in,false,15/05/2024,21/05/2024,40,Electrical Team,5,false,true,true,high,electrical,Building B,Ladders,delivered
+8,MEP,Plumbing rough-in,false,17/05/2024,23/05/2024,20,Plumbing Team,5,false,true,true,high,plumbing,Building B,Pipe Cutter,pending
+9,Finishes,Interior plastering,false,26/05/2024,03/06/2024,5,Finish Team,7;8,false,false,false,medium,finishes,Building C,Trowel,pending
+10,Finishes,Painting,true,05/06/2024,12/06/2024,0,Painting Crew,9,false,false,false,low,painting,Building C,Paint Sprayer,pending
