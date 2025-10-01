@@ -8,4 +8,5 @@ id,phase,task,milestone,start,end,completion,crew,dependencies,weather_dependent
 7,MEP,Electrical rough-in,No,2025-05-15,2025-05-21,40,Electrical Team,5,No,Yes,Yes,high,electrical,Building B,Ladders,delivered
 8,MEP,Plumbing rough-in,No,2025-05-17,2025-05-23,20,Plumbing Team,5,No,Yes,Yes,high,plumbing,Building B,Pipe Cutter,pending
 9,Finishes,Interior plastering,No,2025-05-26,2025-06-03,5,Finish Team,"7;8",No,No,No,medium,finishes,Building C,Trowel,pending
-10,Finishes,Painting,Yes,2025-09-28,2025-10-02,0,Painting Crew,9,No,No,No,low,painting,Building C,Paint Sprayer,pending
+10,Finishes,Painting,Yes,2025-09-18,2025-10-02,0,Painting Crew,9,No,No,No,low,painting,Building C,Paint Sprayer,pending
+10,Finishes,Defect,Yes,2025-09-29,2025-10-10,0,Painting Crew,9,No,No,No,low,painting,Building C,Paint Sprayer,pending
